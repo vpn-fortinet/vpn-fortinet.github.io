@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vpn-fortinet.github.io/sitemap.xml

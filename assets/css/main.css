@@ -1,0 +1,135 @@
+.footer-icons{
+    margin-top: 15px;
+}
+.footer-icons a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-icons i{
+    font-size: 24px;
+    color: #fff;
+}
+.h1-title{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+}
+.page-heading h1 {
+    color: #fff !important;
+}
+.contact-us-form{
+    margin-bottom: 30px;
+}
+.services-guide img{
+    height: 100%;
+    max-height: 230px;
+    object-fit: cover; /* Ensure images cover the area well */
+}
+
+/* Modern Article Card Styles */
+.article-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.article-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.article-card .card-body {
+    padding: 25px;
+}
+
+.article-card .card-title {
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.article-card .card-text {
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+
+/* Modern Article Page Styles */
+.services .col-md-12 {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #444;
+}
+
+.services .col-md-12 h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #007bff;
+}
+
+.services .col-md-12 p {
+    margin-bottom: 25px;
+}
+
+.services .col-md-12 img {
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.services .col-md-12 img:hover {
+    transform: scale(1.03);
+}
+
+.services .col-md-12 ul,
+.services .col-md-12 ol {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.services .col-md-12 ul li,
+.services .col-md-12 ol li {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.services .col-md-12 ul li::before {
+    content: '✓';
+    position: absolute;
+    left: -5px;
+    top: 0;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.services .col-md-12 a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.services .col-md-12 a:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
+
+.logo img {
+    width: 180px;
+    max-height: 80px;
+    object-fit: contain;
+}
